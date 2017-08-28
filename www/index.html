@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="http://10.2.54.210:8080/build/vendor.js"></script>
+    <script type="text/javascript" src="http://10.2.54.210:8080/build/bundle.js"></script>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/getscript?v=2.0&ak=8GmYGypUlcu8npkYgKevGTjCfzMktGkp&services=&t=20170406150344"></script>
+</head>
+<body>
+<ons-navigator id="navigator">
+    <ons-page></ons-page>
+</ons-navigator>
+
+<ons-modal id="modal">
+    <ons-page>
+        <ons-icon class="page-load" icon="md-spinner"/>
+    </ons-page>
+</ons-modal>
+
+<ons-template id="page.html">
+    <ons-page></ons-page>
+</ons-template>
+
+<ons-template id="dialog.html">
+    <ons-page name="dialog"></ons-page>
+</ons-template>
+</body>
+
+</html>
