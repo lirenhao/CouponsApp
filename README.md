@@ -1,0 +1,2 @@
+# CouponsApp
+cordova prepare
