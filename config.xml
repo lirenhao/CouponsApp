@@ -19,6 +19,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <splash src="res/icon.png" />
+        <icon src="res/icon.png" />
         <preference name="LoadUrlTimeoutValue" value="70000" />
     </platform>
     <platform name="ios">
@@ -27,7 +28,6 @@
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#ff7176" />
     </platform>
-    <icon src="res/icon.png" />
     <preference name="Orientation" value="portrait" />
     <preference name="WebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
