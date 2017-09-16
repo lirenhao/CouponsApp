@@ -19,7 +19,7 @@
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-statusbar": {},
             "cordova-plugin-wechat": {
-                "WECHATAPPID": "wx4019599e88479395"
+                "WECHATAPPID": "wxde41f5a91e1a7b02"
             }
         }
     },
@@ -30,7 +30,7 @@
         "cordova-plugin-clipboard2": "^0.1.0",
         "cordova-plugin-compat": "^1.1.0",
         "cordova-plugin-geolocation": "^2.4.3",
-        "cordova-plugin-splashscreen": "git+https://github.com/apache/cordova-plugin-splashscreen.git",
+        "cordova-plugin-splashscreen": "^4.0.3",
         "cordova-plugin-sqlite-2": "^1.0.4",
         "cordova-plugin-statusbar": "^2.2.3",
         "cordova-plugin-wechat": "^1.4.0",
