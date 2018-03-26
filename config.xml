@@ -27,6 +27,8 @@
         <allow-intent href="itms-apps:*" />
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#ff7176" />
+        <preference name="phonegap-version" value="cli-7.1.0" />
+        <icon src="res/icon/ios/icon.png" width="1024" height="1024" />
         <icon height="180" src="res/ios/icon-60pt@3x.png" width="180" />
         <icon height="120" src="res/ios/icon-60pt@2x.png" width="120" />
         <icon height="87" src="res/ios/icon-29pt@3x.png" width="87" />
