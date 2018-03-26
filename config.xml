@@ -34,6 +34,8 @@
         <icon height="40" src="res/ios/icon-20pt@2x.png" width="40" />
         <icon height="60" src="res/ios/icon-20pt@3x.png" width="60" />
         <icon height="80" src="res/ios/icon-40pt@2x.png" width="80" />
+        <icon height="76" src="res/ios/icon-76pt.png" width="76" />
+        <icon height="152" src="res/ios/icon-76pt@2x.png" width="152" />
     </platform>
     <preference name="Orientation" value="portrait" />
     <preference name="WebViewBounce" value="false" />
