@@ -32,6 +32,7 @@
         </edit-config>
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
+        <preference name="phonegap-version" value="cli-8.0.0" />
         <preference name="StatusBarOverlaysWebView" value="false"/>
         <preference name="StatusBarBackgroundColor" value="#ff7176"/>
         <icon height="87" width="87" src="res/ios/icon-29pt@3x.png"/>
@@ -45,7 +46,6 @@
         <icon height="152" width="152" src="res/ios/icon-76pt@2x.png"/>
         <icon height="1024" width="1024" src="res/ios/icon-1024.png"/>
     </platform>
-    <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="target-device" value="handset" />
     <preference name="Orientation" value="portrait"/>
     <preference name="WebViewBounce" value="false"/>
