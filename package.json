@@ -14,7 +14,10 @@
                 "CAMERA_USAGE_DESCRIPTION": " "
             },
             "cordova-plugin-sqlite-2": {},
-            "cordova-plugin-camera": {},
+            "cordova-plugin-camera": {
+                "NSPhotoLibraryUsageDescription": "访问相册",
+                "NSCameraUsageDescription": "使用相机"
+            },
             "cordova-plugin-geolocation": {},
             "cordova-plugin-splashscreen": {},
             "cordova-plugin-statusbar": {},
