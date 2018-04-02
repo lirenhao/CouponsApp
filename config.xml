@@ -17,32 +17,42 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application" />
         <allow-intent href="market:*" />
-        <splash src="res/icon.png" />
-        <icon src="res/icon.png" />
+        <splash src="res/screen/icon.png" />
+        <icon src="res/icon/icon.png" />
         <preference name="LoadUrlTimeoutValue" value="70000" />
     </platform>
     <platform name="ios">
-        <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+        <edit-config file="*-Info.plist" mode="merge" target="NSCameraUsageDescription">
             <string>使用相机</string>
         </edit-config>
-        <edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+        <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
             <string>访问相册</string>
         </edit-config>
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
         <preference name="StatusBarOverlaysWebView" value="false" />
         <preference name="StatusBarBackgroundColor" value="#ff7176" />
-        <icon height="87" src="res/ios/icon-29pt@3x.png" width="87" />
-        <icon height="58" src="res/ios/icon-29pt@2x.png" width="58" />
-        <icon height="40" src="res/ios/icon-20pt@2x.png" width="40" />
-        <icon height="60" src="res/ios/icon-20pt@3x.png" width="60" />
-        <icon height="80" src="res/ios/icon-40pt@2x.png" width="80" />
-        <icon height="120" src="res/ios/icon-60pt@2x.png" width="120" />
-        <icon height="180" src="res/ios/icon-60pt@3x.png" width="180" />
-        <icon height="76" src="res/ios/icon-76pt.png" width="76" />
-        <icon height="152" src="res/ios/icon-76pt@2x.png" width="152" />
-        <icon height="1024" src="res/ios/icon-1024.png" width="1024" />
+        <icon height="87" src="res/icon/ios/icon-29pt@3x.png" width="87" />
+        <icon height="58" src="res/icon/ios/icon-29pt@2x.png" width="58" />
+        <icon height="40" src="res/icon/ios/icon-20pt@2x.png" width="40" />
+        <icon height="60" src="res/icon/ios/icon-20pt@3x.png" width="60" />
+        <icon height="80" src="res/icon/ios/icon-40pt@2x.png" width="80" />
+        <icon height="120" src="res/icon/ios/icon-60pt@2x.png" width="120" />
+        <icon height="180" src="res/icon/ios/icon-60pt@3x.png" width="180" />
+        <icon height="76" src="res/icon/ios/icon-76pt.png" width="76" />
+        <icon height="152" src="res/icon/ios/icon-76pt@2x.png" width="152" />
+        <icon height="1024" src="res/icon/ios/icon-1024.png" width="1024" />
+        <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
+        <splash src="res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
+        <splash src="res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
+        <splash src="res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
+        <splash src="res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
+        <splash src="res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+        <splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
+        <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
+        <splash src="res/screen/ios/Default-736h.png" width="1242" height="2208"/>
     </platform>
     <preference name="phonegap-version" value="cli-8.0.0" />
     <preference name="target-device" value="handset" />
