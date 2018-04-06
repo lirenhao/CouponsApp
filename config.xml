@@ -39,9 +39,8 @@
         </edit-config>
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
-        <preference name="StatusBarOverlaysWebView" value="true"/>
+        <preference name="StatusBarOverlaysWebView" value="false"/>
         <preference name="StatusBarBackgroundColor" value="#FF7176"/>
-        <preference name="StatusBarStyle" value="lightcontent"/>
         <icon height="87" src="res/icon/ios/icon-29pt@3x.png" width="87"/>
         <icon height="58" src="res/icon/ios/icon-29pt@2x.png" width="58"/>
         <icon height="40" src="res/icon/ios/icon-20pt@2x.png" width="40"/>
@@ -66,6 +65,7 @@
     <plugin name="cordova-plugin-splashscreen" spec="^4.0.3"/>
     <plugin name="cordova-plugin-sqlite-2" spec="^1.0.4"/>
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3"/>
+    <plugin name="cordova-plugin-disable-ios11-statusbar" spec="^1.0.0"/>
     <plugin name="cordova-plugin-wechat" spec="^1.4.0">
         <variable name="WECHATAPPID" value="wxde41f5a91e1a7b02"/>
     </plugin>
