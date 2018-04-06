@@ -39,8 +39,9 @@
         </edit-config>
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
-        <preference name="StatusBarOverlaysWebView" value="false"/>
+        <preference name="StatusBarOverlaysWebView" value="true"/>
         <preference name="StatusBarBackgroundColor" value="#FF7176"/>
+        <preference name="StatusBarStyle" value="lightcontent"/>
         <icon height="87" src="res/icon/ios/icon-29pt@3x.png" width="87"/>
         <icon height="58" src="res/icon/ios/icon-29pt@2x.png" width="58"/>
         <icon height="40" src="res/icon/ios/icon-20pt@2x.png" width="40"/>
