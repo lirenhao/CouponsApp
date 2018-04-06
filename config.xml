@@ -38,8 +38,6 @@
         </edit-config>
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <preference name="StatusBarOverlaysWebView" value="false" />
-        <preference name="StatusBarBackgroundColor" value="#FF7176" />
         <icon height="87" src="res/icon/ios/icon-29pt@3x.png" width="87" />
         <icon height="58" src="res/icon/ios/icon-29pt@2x.png" width="58" />
         <icon height="40" src="res/icon/ios/icon-20pt@2x.png" width="40" />
@@ -71,5 +69,4 @@
         <variable name="CAMERA_USAGE_DESCRIPTION" value=" " />
     </plugin>
     <plugin name="cordova-plugin-camera" spec="^4.0.2" />
-    <plugin name="cordova-plugin-statusbar" spec="https://github.com/apache/cordova-plugin-statusbar.git" />
 </widget>
