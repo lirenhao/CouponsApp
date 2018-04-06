@@ -39,7 +39,7 @@
         </edit-config>
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
-        <preference name="StatusBarOverlaysWebView" value="false"/>
+        <preference name="StatusBarOverlaysWebView" value="true"/>
         <preference name="StatusBarBackgroundColor" value="#FF7176"/>
         <preference name="StatusBarStyle" value="lightcontent"/>
         <preference name="StatusBarDefaultScrollToTop" value="false"/>
